@@ -1,6 +1,7 @@
 
 import '../styles/ShowRequestDetails.css'
 import '../styles/style.css'
+import building1 from '../../assets/reviewer/building1.png';
 
 
 interface RequestDetailsprops{
@@ -28,7 +29,7 @@ const ShowRequestDetails: React.FC<RequestDetailsprops> = ({ onClose }) => {
                       
                   {/* building-image */}
                   <div className=' p-2  '>
-                      <img src='/src/assets/reviewer/building1.png' className='building-image'/>
+                      <img src={building1} className='building-image'/>
                   </div>
                   {/* building-image */}
 

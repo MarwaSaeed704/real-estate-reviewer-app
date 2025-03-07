@@ -1,5 +1,6 @@
 
 import '../styles/ShowBalance.css'
+import assest7 from '../../assets/reviewer/assest7.png';
 
 function ShowBalance() {
   return (
@@ -10,7 +11,7 @@ function ShowBalance() {
               <div className='content-section m-10 w-4/5 rounded-md  grid grid-cols-1 pt-8 pb-10 justify-items-center'>
                   {/* image */}
                   <div className='w-1/5 h-1/5 mb-8 max-sm:w-2/5 max-sm:h-2/5'>
-                      <img src='/src/assets/reviewer/assest7.png'/>
+                      <img src={assest7}/>
                   </div>
                   {/*== image ==*/}
                   

@@ -1,6 +1,11 @@
 import '../styles/style.css'
 import PropertyItem from './PropertyItem';
-// import building1 from '../../assets/reviewer/building1.png'
+import building1 from '../../assets/reviewer/building1.png';
+import building2 from '../../assets/reviewer/building2.png';
+import building3 from '../../assets/reviewer/building3.png';
+import building4 from '../../assets/reviewer/building4.png';
+import building5 from '../../assets/reviewer/building5.png';
+import building6 from '../../assets/reviewer/building6.png';
 
 
 function ShowAllProperty() {
@@ -16,38 +21,38 @@ function ShowAllProperty() {
 
   const buildingsAvailable:BuildingInfo[] = [
     {
-      buildingImage:"/src/assets/reviewer/building1.png",
+      buildingImage:building1,
       buildName:"عقار الشروق",
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       companyName:"شركة عقاركم",
     },
 
       {
-      buildingImage:"/src/assets/reviewer/building2.png",
+      buildingImage:building2,
       buildName:"عقار الشروق",
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       companyName:"شركة عقاركم",
     },
        {
-      buildingImage:"/src/assets/reviewer/building3.png",
+      buildingImage:building3,
       buildName:"عقار الشروق",
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       companyName:"شركة عقاركم",
     },
         {
-      buildingImage:"/src/assets/reviewer/building4.png",
+      buildingImage:building4,
       buildName:"عقار الشروق",
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       companyName:"شركة عقاركم",
     },
          {
-      buildingImage:"/src/assets/reviewer/building5.png",
+      buildingImage:building5,
       buildName:"عقار الشروق",
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       companyName:"شركة عقاركم",
     },
           {
-      buildingImage:"/src/assets/reviewer/building6.png",
+      buildingImage:building6,
       buildName:"عقار الشروق",
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       companyName:"شركة عقاركم",

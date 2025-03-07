@@ -1,4 +1,5 @@
 import "../styles/ReviewerHeader.css";
+import avatar from "../../assets/avatar.png"
 import { IoNotificationsSharp } from "react-icons/io5";
 
 import { IoIosSearch } from "react-icons/io";
@@ -33,7 +34,7 @@ function ReviewerHeader() {
           <h2 className="text-lg text-white username">Ahmed Mohamed</h2>
           <img
             className="w-[50px] h-[50px] rounded-full "
-            src="/src/assets/avatar.png"
+            src={avatar}
             alt="avatar"
           />
         </div>

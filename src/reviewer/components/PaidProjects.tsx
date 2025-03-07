@@ -1,5 +1,11 @@
 
 import PaidProjectsItems from "./PaidProjectsItems"
+import building1 from '../../assets/reviewer//building1.png'
+import building2 from '../../assets/reviewer//building2.png'
+import building3 from '../../assets/reviewer//building3.png'
+import building4 from '../../assets/reviewer//building4.png'
+import building5 from '../../assets/reviewer//building5.png'
+import building6 from '../../assets/reviewer//building6.png'
 function PaidProjects() {
 
   interface BuildingInfo{
@@ -12,42 +18,42 @@ function PaidProjects() {
   
   const buildingsAvailable: (BuildingInfo)[] = [
     {
-      buildingImage: "/src/assets/reviewer/building1.png",
+      buildingImage: building1,
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       buildingPrice: "85,000 ريال سعودي",
       buildingDescription:
         "تكون من صالة ومجلس وثلاث غرف نوم ومطبخ و ثلاث دورات مياه وتراس و مطل على الشارع  بمساحة 138م..........."
     },
      {
-      buildingImage: "/src/assets/reviewer/building2.png",
+      buildingImage: building2,
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       buildingPrice: "85,000 ريال سعودي",
       buildingDescription:
         "تكون من صالة ومجلس وثلاث غرف نوم ومطبخ و ثلاث دورات مياه وتراس و مطل على الشارع  بمساحة 138م..........."
     },
       {
-      buildingImage: "/src/assets/reviewer/building3.png",
+      buildingImage: building3,
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       buildingPrice: "85,000 ريال سعودي",
       buildingDescription:
         "تكون من صالة ومجلس وثلاث غرف نوم ومطبخ و ثلاث دورات مياه وتراس و مطل على الشارع  بمساحة 138م..........."
     },
        {
-      buildingImage: "/src/assets/reviewer/building4.png",
+      buildingImage: building4,
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       buildingPrice: "85,000 ريال سعودي",
       buildingDescription:
         "تكون من صالة ومجلس وثلاث غرف نوم ومطبخ و ثلاث دورات مياه وتراس و مطل على الشارع  بمساحة 138م..........."
     },
         {
-      buildingImage: "/src/assets/reviewer/building5.png",
+      buildingImage: building5,
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       buildingPrice: "85,000 ريال سعودي",
       buildingDescription:
         "تكون من صالة ومجلس وثلاث غرف نوم ومطبخ و ثلاث دورات مياه وتراس و مطل على الشارع  بمساحة 138م..........."
     },
          {
-      buildingImage: "/src/assets/reviewer/building6.png",
+      buildingImage: building6,
       buildingTitle: "عقار في شارع السند ، حي النرجس ، الرياض ، منطقة الرياض",
       buildingPrice: "85,000 ريال سعودي",
       buildingDescription:
