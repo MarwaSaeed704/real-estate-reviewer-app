@@ -10,6 +10,7 @@ import AddComment from "./reviewer/components/AddComment";
 import ReportReviewer from "./reviewer/pages/ReportReviewer";
 import SettingsReviewer from "./reviewer/pages/SettingsReviewer";
 import TermsAndConditionsReviewer from "./reviewer/components/TermConditionsReviewer";
+import Logout from "./reviewer/components/Logout";
 
 
 function App() {
@@ -30,7 +31,9 @@ function App() {
             <Route path="paid-project" element={<PaidProjects />} />
             <Route path="terms-conditions-reviewer" element={<TermsAndConditionsReviewer/>} />
             <Route path="settings-reviewer" element={<SettingsReviewer />} />
-            </Route>
+            <Route path="logout" element ={<Logout />} />
+        </Route>
+        
 
                 
             </Routes>
